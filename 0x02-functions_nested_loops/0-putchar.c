@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "_putchar.h"
 #include "main.h"
 
