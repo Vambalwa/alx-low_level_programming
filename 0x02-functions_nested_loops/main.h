@@ -1,7 +1,5 @@
-#ifndef MAIN.H
-#define MAIN.H
-
-
+#ifndef MAIN_H
+#define MAIN_H
 
 char _putchar(char c);
 
@@ -29,6 +27,4 @@ void print_to_98(int n);
 
 void print_times_table(int n);
 
-
-
-#endif /*main.h */
+#endif /*main_h */
