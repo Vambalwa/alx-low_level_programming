@@ -1,12 +1,17 @@
-1. int _putchar(char c);
-2. int _isupper(int c);
-3. int _isdigit(int c);
-4. int mul(int a, int b);
-5. void print_numbers(void);
-6. void print_most_numbers(void);
-7. void more_numbers(void);
-8. void print_line(int n);
-9. void print_diagonal(int n);
-10.void print_square(int size);
-11.void print_triangle(int size);
-12.void print_number(int n);
+#ifndef MAIN_H
+#define MAIN_H
+
+int _putchar(char c);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
+void print_number(int n);
+
+#endif /* MAIN_H */
