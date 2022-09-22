@@ -6,28 +6,22 @@
  * @src: The source value
  * @n: The copy limit
  *
- * Return: char value
-*/
+ * Return: Destination
+ */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int a = 0, b = 0;
+int j = 0;
 
-	while (src[b])
-	{								
-		b++;
-	}
-
-	while (a < n && src[a])
-	{
-		dest[a] = src[a];
-		a++;
-	}
-
-	while (a < n)
-	{
-		dest[a] = '\0';
-		a++;
-	}
-
-	return (dest);
+for (j = 0; src[j] != '\0'; j++)
+{
+if (j < n)
+{
+dest[j] = src[j];
+}
+}
+for (; j < n; j++)
+{
+dest[j] = '\0';
+}
+return (dest);
 }
