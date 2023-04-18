@@ -1,5 +1,7 @@
 0x0E-SQL_more_queries
-The Quiz Bit
+
+
+ Quiz Bit
 Q0. What does DCL mean?
 Data Control Language
 Q1.Is it possible to give only delete access to a table to a user?
